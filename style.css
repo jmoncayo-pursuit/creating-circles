@@ -1,0 +1,31 @@
+
+.container {
+    border: .25em solid;
+    width: 95%;
+    height: 300px;
+    display: border-box;
+   margin-left: .25em;
+}
+
+button.createCircle {
+    position: relative;
+    left: 40%;
+    margin-top: 1.5em;
+    border-radius: 2em;
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.2s; 
+    background-color: hsl(1deg 63% 58%);
+    color: white;
+    padding: 1em;
+    width: 12em;
+}
+
+button.createCircle:hover {
+    box-shadow: 2px 2px 0px 0px black;
+}
+
+button.createCircle:active {
+    transform: translateY(3px); /
+}
+
+
